@@ -1,0 +1,159 @@
+ header{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(171, 74, 67);
+    color: #e8e8e8;
+}
+
+.header-main{
+    background-color: #4d4d4d;
+    margin: 0px;
+}
+
+
+
+.buttons{
+    padding :10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}/*
+
+
+
+
+
+*/
+
+
+
+h1
+{
+    display: flex;
+    justify-content: center;
+} 
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: #4d4d4d;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:  antiquewhite;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.counter-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con{
+    font-size: 2em;
+    margin: 10px 0;
+    color: #4d4d4d;
+    
+    
+    
+}
+
+#inc-btn {
+    margin: 4px;
+    padding:  10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgb(171, 74, 67);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#inc-btn:hover {
+    background-color: rgb(210, 90, 82);
+}
+
+#dec-btn {
+    margin: 4px;
+    padding:  10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgb(171, 74, 67);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#dec-btn:hover {
+    background-color: rgb(210, 90, 82);;
+}
+
+.prev{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.prev p{
+    color: #4d4d4d;
+    font-size: larger;
+}
+
+
+#reset {
+    margin: 4px;
+    padding:  10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color:rgb(171, 74, 67);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#reset:hover {
+    background-color: rgb(210, 90, 82);;
+}
+
+#save {
+    margin: 4px;
+    padding:  10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgb(171, 74, 67);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#save:hover {
+    background-color: rgb(210, 90, 82);;
+}
